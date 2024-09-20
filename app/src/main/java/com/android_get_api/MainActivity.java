@@ -1,10 +1,13 @@
 package com.android_get_api;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+
+    private RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
